@@ -37,7 +37,12 @@ nav a {
 
  .section-header{
     background-color: salmon;
-    opacity: 0.7;
+    opacity: 0.9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #4CAF50;
  }
 
  .wrapper { 
@@ -97,4 +102,32 @@ footer{
     padding: 10px;
 }
 
- 
+div.fixed {
+    background-color: rgb(62, 164, 132);
+    opacity: 0.9;
+    background-image: url('stripesgif.gif');
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 250px;
+    height: 100px;
+    border: 3px dotted salmon;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: larger;
+
+    
+  }
+
+  <style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+</style>
